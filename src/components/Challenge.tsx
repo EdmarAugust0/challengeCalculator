@@ -8,6 +8,7 @@ const Calculator = () => {
     const handleCalculate = () => {
         const soma = parseFloat(num1) + parseFloat(num2);
         setResult(soma.toString());
+        console.log(soma)
     }
 
     return (
